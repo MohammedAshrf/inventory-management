@@ -1,3 +1,4 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "no-unknown-atrule": [true, { "ignoreAtRules": ["tailwind", "apply"] }]
 }
